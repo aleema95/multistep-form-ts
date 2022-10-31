@@ -1,0 +1,23 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --primary-color: #222831;
+  --secondary-color: #393E46;
+  --tertiary-color: #00ADB5;
+  --white-color: #EEEEEE;
+
+  --primary-font: 'Lexend Deca', sans-serif;
+  --first-weight: 600;
+}
+
+body {
+  font-family: var(--primary-font);
+  background-color: var(--primary-color);
+  display: flex;
+  height: 700px;
+  justify-content: center;
+  align-items: center;
+}
