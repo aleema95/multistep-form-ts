@@ -40,4 +40,11 @@
   font-size: 1.3rem;
   background-color: var(--tertiary-color);
   font-weight: var(--first-weight);
+  transition: all .2s;
+}
+
+.btnsContainer button:hover {
+
+  color: var(--tertiary-color);
+  background-color: var(--primary-color);
 }
